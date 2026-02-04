@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    @apply font-sans antialiased;
+  }
+
+  .font-display {
+    @apply font-display font-bold;
+  }
+}
+
+@theme {
+  --color-primary: #4FB6F4;
+  --color-navy: #1e3a5f;
+  --color-background-light: #F8FAFC;
+  --color-background-dark: #0F172A;
+
+  --font-sans: "Inter", "sans-serif";
+  --font-display: "Lexend", "sans-serif";
+
+  --radius-default: 0.75rem;
+  --radius-xl: 1.25rem;
+}
+
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
