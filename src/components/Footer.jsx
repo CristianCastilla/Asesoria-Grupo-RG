@@ -11,7 +11,7 @@ const Footer = () => {
                         <img
                             alt="Grupo RG Logo"
                             className="h-10 w-auto"
-                            src="/logo_sin_fondov2.png"
+                            src="logo_sin_fondov2.png"
                         />
                         <span className="text-xl font-display font-bold text-navy dark:text-white">
                             Grupo<span className="text-primary">RG</span>

@@ -7,31 +7,31 @@ const Services = () => {
         {
             title: 'Fiscal & Contable',
             description: 'Optimización de impuestos, gestión contable diaria y presentación de declaraciones ante la Agencia Tributaria.',
-            icon: <img src="/fiscarycontable.png" alt="Fiscal y Contable" className="w-12 h-12 object-contain" />,
+            icon: <img src="fiscarycontable.png" alt="Fiscal y Contable" className="w-12 h-12 object-contain" />,
             features: ['IVA, IRPF e Impuesto de Sociedades', 'Auditoría interna de cuentas']
         },
         {
             title: 'Laboral',
             description: 'Gestión de nóminas, contratos, altas/ bajas en la Seguridad Social y asesoramiento en recursos humanos.',
-            icon: <img src="/laboral.png" alt="Laboral" className="w-12 h-12 object-contain" />,
+            icon: <img src="laboral.png" alt="Laboral" className="w-12 h-12 object-contain" />,
             features: ['Gestión de Seguros Sociales', 'Conciliaciones y despidos']
         },
         {
             title: 'Jurídico & Legal',
             description: 'Defensa legal integral para particulares y empresas. Mercantil, civil y administrativo.',
-            icon: <img src="/juridico.png" alt="Jurídico" className="w-12 h-12 object-contain" />,
+            icon: <img src="juridico.png" alt="Jurídico" className="w-12 h-12 object-contain" />,
             features: ['Constitución de sociedades', 'Redacción de contratos complejos']
         },
         {
             title: 'Inmobiliario',
             description: 'Gestión integral de compraventa y alquileres. Asesoramiento profesional para encontrar tu inmueble ideal.',
-            icon: <img src="/remax.png" alt="Inmobiliario" className="w-12 h-12 object-contain" />,
+            icon: <img src="remax.png" alt="Inmobiliario" className="w-12 h-12 object-contain" />,
             features: ['Compraventas y Alquileres', 'Valoraciones de mercado']
         },
         {
             title: 'Seguros',
             description: 'Como sucursal autorizada de Mapfre, ofrecemos las mejores coberturas para tu seguridad y la de tu negocio.',
-            icon: <img src="/mapfre.png" alt="Seguros" className="w-12 h-12 object-contain" />,
+            icon: <img src="mapfre.png" alt="Seguros" className="w-12 h-12 object-contain" />,
             features: ['Seguros de Hogar y Auto', 'Pólizas para Empresas y Autónomos']
         }
     ];

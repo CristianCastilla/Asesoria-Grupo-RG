@@ -19,7 +19,7 @@ const Navbar = ({ toggleDarkMode, isDarkMode }) => {
                         <img
                             alt="Grupo RG Logo"
                             className="h-10 w-auto object-contain"
-                            src="/logo_sin_fondov2.png"
+                            src="logo_sin_fondov2.png"
                         />
                         <span className="text-2xl font-display font-bold text-[#1e3a5f] dark:text-white tracking-tight">
                             Grupo<span className="text-[#4FB6F4]">RG</span>
